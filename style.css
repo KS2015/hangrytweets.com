@@ -1,0 +1,59 @@
+html, body {
+  font-family: 'Arial', sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.container .item {
+  padding: 30px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin: 10px;
+}
+.container .item img,
+.container .item video {
+  width: 100%;
+  height: auto;
+}
+.container .item .numbers__holder {
+  margin-top: 15px;
+}
+.container .item p.numbers {
+  display: inline;
+}
+.container .item p.numbers svg {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+  fill: white;
+}
+.container .item p.favorites {
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #ffa8a8;
+  font-size: 11px;
+  color: white;
+  background-color: #ffa8a8;
+}
+.container .item p.retweets {
+  margin-left: 20px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #9ac7ff;
+  font-size: 11px;
+  color: white;
+  background-color: #9ac7ff;
+}
+.container .next_results {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: white;
+  background-color: #5677aa;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
