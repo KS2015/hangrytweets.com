@@ -42,6 +42,7 @@
 
 
   echo '<div class="container">';
+  echo '<script data-ad-client="ca-pub-2755070196376377" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>';
   foreach ($string as $items) {
       if (is_array($items)) {
         foreach ($items as $value) {
